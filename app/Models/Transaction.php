@@ -12,6 +12,7 @@ class Transaction extends Model
 
     protected $fillable = [
         'platform',
+        'transaction_id',
         'amount',
         'currency',
         'status',
